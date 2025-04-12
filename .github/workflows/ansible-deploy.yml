@@ -21,4 +21,4 @@ jobs:
 
       - name: Run Ansible Playbook
         run: |
-          ansible-playbook -i ansible/inventory/aws_ec2.yaml ansible/playbooks/install_apache.yaml
+          ansible-playbook ansible/playbooks/install_apache.yaml
